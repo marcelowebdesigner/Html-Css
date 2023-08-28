@@ -1,0 +1,50 @@
+        /* Estilos generales del cuerpo del documento */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        /* Estilos para el encabezado */
+        .header {
+            background-color: #6f6f91;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        /* Estilos para el contenedor principal */
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        /* Estilos para las etiquetas de formulario */
+        .form-label {
+            text-align: center;
+            margin-top: 20px;
+        }
+        /* Estilos para los campos de entrada de formulario */
+        .form-input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        /* Estilos para el botón de envío del formulario */
+        .form-submit {
+            background-color: #6f6f91;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        /* Estilos para el botón de envío del formulario al pasar el cursor por encima */
+        .form-submit:hover {
+            background-color: #2184c3;
+        }
